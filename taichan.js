@@ -1,0 +1,3 @@
+function taichan() {
+  alert(アラート);
+}

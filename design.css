@@ -1,0 +1,194 @@
+*{padding: 0px; margin: 0px;}
+
+body{
+  background-color:#eeeeee;
+}
+
+header{
+  background-image:url(img/1583558044459.jpg);
+}
+
+h1{
+  text-align: center;
+  color: #eeeeee;
+}
+
+/* pc */
+@media screen and (min-width: 480px) { /*ウィンドウ幅が767px以上の場合に適用*/
+  header{
+    height:240px;
+    margin: 0px;
+  }
+
+  h1{
+    font-size:80px;
+  }
+ 
+  h2{
+    margin:10px;
+    margin-left: 50px;
+    font-size:30px;
+    margin-top:60px;
+    border-left:solid 10px #3366ee;
+    padding:10px;
+    padding-left: 20px;
+    background-color: #c5d0f3;
+    border-bottom: solid 5px #98a0bd;
+  }
+
+  h3{
+    margin:10px;
+    margin-left:100px;
+    margin-top:20px;
+    border-bottom: solid 2px #bbbbbb;
+  }
+
+  p{
+    margin-left: 100px;
+    margin-right: 10px;
+  }
+
+  img{
+    margin:10px;
+    margin-left:100px;
+    width:80%;
+
+  }
+
+  .yahoo{
+    width:20%;
+  }
+
+  table{
+    margin:10px;
+    margin-left:100px;
+    padding:0px;
+    border-collapse: collapse;
+  }
+
+  table a{
+    all:initial;
+  }
+
+ 
+
+  td{
+    border: solid 4px #bbbbbb;
+    padding:5px;
+    
+  }
+
+
+
+}
+
+
+
+/* スマホ */
+/*ウィンドウ幅が最大479pxまでの場合に適用*/
+@media screen and (max-width: 479px) {
+  header{
+    height:160px;
+  }
+
+  h1{
+    font-size:60px;
+  }
+ 
+  h2{
+    margin:10px;
+    margin-left: 10px;
+    font-size:20px;
+    margin-top:60px;
+    border-left:solid 10px #3366ee;
+    padding:10px;
+    padding-left: 20px;
+    background-color: #c5d0f3;
+    border-bottom: solid 5px #98a0bd;
+  }
+
+  h3{
+    margin:10px;
+    margin-left:40px;
+    margin-top:20px;
+    border-bottom: solid 2px #bbbbbb;
+  }
+
+  p{
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 0.8em;
+  }
+
+  img{
+    margin:10px;
+    margin-left:40px;
+    width:80%;
+
+  }
+
+  .yahoo{
+    width:80%;
+  }
+
+  table{
+    margin:10px;
+    margin-left:40px;
+    padding:0px;
+    border-collapse: collapse;
+  }
+
+  table a{
+    all:initial;
+  }
+
+ 
+
+  td{
+    border: solid 4px #bbbbbb;
+    padding:5px;
+    
+  }
+
+
+
+}
+
+
+  
+
+
+
+
+
+
+
+
+
+  .hover {
+    margin-left: 100px;
+    width: 100px;
+    height:100px;
+    background-color: red;
+    margin-top: 50px;
+  }
+
+  .hover2 {
+    margin-left: 100px;
+    width: 100px;
+    height:100px;
+    background-color: red;
+    margin-top: 50px;
+  }
+
+  .hover:hover{
+    background-color: #0000ff;
+    transition: all 1s ease;
+  }
+  
+  .hover2:hover{
+    width: 100%;
+    transition: all 1s linear;
+  }
+  
+
